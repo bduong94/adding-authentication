@@ -42,6 +42,8 @@ const AuthForm = () => {
             if (data && data.error && data.error.message) {
               errorMessage = data.error.message;
             }
+
+            alert(errorMessage);
           });
         }
       });
